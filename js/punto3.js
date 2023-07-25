@@ -8,11 +8,7 @@ Nota: usar confirm()
  https://www.w3schools.com/jsref/met_win_confirm.asp
  */
 
- // let i=0;
-//  while(i<6){
-// console.log(i+1);
-// i+= 1;
-//  }
+
 let cadena= '';
 while (true) {
     let texto = prompt("Ingrese texto");
