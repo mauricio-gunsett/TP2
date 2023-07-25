@@ -33,7 +33,7 @@ for (let i = 1; i <500; i++){
     console.log('Múltiplo de 9');
 }
 if(i % 5 ===0){
-    console.log('-'.repeat(50));
+    console.log('--------------');
 }
 }
 

@@ -10,14 +10,22 @@
 22
 1
  */
+let numero;
+numero = prompt('ingrese un número');
+let num = Number(numero)
 
 
-for(let i = 30; i>0; i--) {
+if (isNaN(numero)|| numero<1 || numero>50 ){
+  alert("Ingrese un numero dentro del rango")
+} else {
+
+for(let i = num; i>0; i--) {
    let cadena = '';
- 
+  
    for (let j = 0; j < i; j++) {
      cadena += i;
    }
    console.log(cadena);
  
  }
+}
